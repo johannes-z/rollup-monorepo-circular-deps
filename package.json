@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "npm run --prefix ./packages/@namespace/rollup-test build"
+  },
+  "workspaces": [
+    "packages/@namespace/*"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.5.4"
+  }
+}
